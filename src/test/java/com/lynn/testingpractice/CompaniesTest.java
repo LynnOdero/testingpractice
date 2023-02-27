@@ -15,7 +15,7 @@ public class CompaniesTest {
 
     @BeforeAll
     public static void setup(){
-        Configuration.headless = false;
+        Configuration.headless = true;
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         }

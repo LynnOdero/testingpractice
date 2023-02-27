@@ -16,7 +16,7 @@ public class SearchJobsTest {
 
     @BeforeAll
     public static void setLoginPage() {
-        Configuration.headless = false;
+        Configuration.headless = true;
         SelenideLogger.addListener("allure", new AllureSelenide());
     }
     @BeforeEach
